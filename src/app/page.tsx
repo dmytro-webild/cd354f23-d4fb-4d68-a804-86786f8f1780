@@ -10,7 +10,7 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
-import { Maximize } from "lucide-react";
+import { Maximize, Touchpad, Memory, BatteryCharging, Hourglass, Drill } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -272,6 +272,9 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={true}
+      names={[
+        "Visa",        "Mastercard",        "PayPal",        "Apple Pay",        "Google Pay",        "FedEx",        "UPS",        "DHL"
+      ]}
       logos={[
         "http://img.b2bpic.net/free-vector/statue-liberty-logo-design-template_23-2151089939.jpg",
         "http://img.b2bpic.net/free-photo/credit-cards-that-are-stacked-floor_1150-16356.jpg",
