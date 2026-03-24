@@ -68,7 +68,7 @@ export default function LandingPage() {
         {
           id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-writing-her-journal_23-2150416357.jpg",          imageAlt: "Close-up of USB rechargeable wooden lamp"},
         {
-          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg",          imageAlt: "Wooden wall lamp providing light in a minimalist study"},
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg?_wi=1",          imageAlt: "Wooden wall lamp providing light in a minimalist study"},
         {
           id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/yellow-white-wooden-fence_250224-276.jpg",          imageAlt: "Elegant wooden wall lamp in a living room setting"},
         {
@@ -136,7 +136,7 @@ export default function LandingPage() {
         },
         {
           id: "4",          title: "Intelligent Motion Sensing",          description: "Our smart LED sensor lights activate automatically when motion is detected, providing light when you need it most and saving energy when you don't. Perfect for hallways, closets, and stairwells.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg",            imageAlt: "Smart LED wall lamp detecting motion"},
+            imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg?_wi=2",            imageAlt: "Smart LED wall lamp detecting motion"},
           items: [
             {
               icon: Activity,
