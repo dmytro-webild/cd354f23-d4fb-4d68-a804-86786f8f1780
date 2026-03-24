@@ -12,8 +12,8 @@ import { Open_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Luminate Wireless Wall Lamp | USB Rechargeable Wooden Light',
-  description: 'Discover the elegant USB rechargeable wireless wall lamp. Indoor wooden light with touch control, brightness adjustment, and 360° rotation for your bedroom, study, or living room.',
+  title: 'Auraglow Smart LED Sensor Wall Light with Magnetic Base',
+  description: 'Experience innovative illumination with Auraglow\'s Smart LED Sensor Wall Light. Featuring intelligent motion sensing, stepless dimming, magnetic base for easy installation, and sleek design for modern homes.',
   keywords: ["wireless wall lamp, wooden wall light, USB rechargeable lamp, bedroom lamp, touch control light, bedside lamp, indoor lighting, LED lamp, home decor"],
   openGraph: {
     "title": "Luminate Wireless Wall Lamp | USB Rechargeable Wooden Light",
