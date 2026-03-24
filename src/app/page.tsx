@@ -31,18 +31,18 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Home",          href: "/"},
         {
-          name: "About",          id: "about"},
+          name: "About",          href: "#about"},
         {
-          name: "Features",          id: "features"},
+          name: "Features",          href: "#features"},
         {
-          name: "Products",          id: "products"},
+          name: "Products",          href: "/products"},
         {
-          name: "Testimonials",          id: "testimonials"},
+          name: "Testimonials",          href: "#testimonials"},
       ]}
       button={{
-        text: "Buy Now",        href: "#products"}}
+        text: "Buy Now",        href: "/products"}}
       brandName="Auraglow"
     />
   </div>
@@ -57,7 +57,7 @@ export default function LandingPage() {
         {
           text: "Explore Features",          href: "#features"},
         {
-          text: "Shop Now",          href: "#products"},
+          text: "Shop Now",          href: "/products"},
       ]}
       buttonAnimation="slide-up"
       carouselItems={[
@@ -227,7 +227,7 @@ export default function LandingPage() {
             {
               label: "Features",              href: "#features"},
             {
-              label: "Products",              href: "#products"},
+              label: "Products",              href: "/products"},
           ],
         },
         {
