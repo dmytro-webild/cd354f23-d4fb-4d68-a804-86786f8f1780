@@ -73,7 +73,7 @@ export default function LandingPage() {
         {
           id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/clean-minimalist-empty-room-dark-wood-floor-light-wall-with-copy-space_181624-3700.jpg",          imageAlt: "Auraglow light illuminating a clean, minimalist room"},
         {
-          id: "6",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BH3pnx6ODnrHiyU0R7S8Jh129i/tmp/https-www-alibaba-com-product-detail-tou-1774377198714-eedc0088.png",          imageAlt: "Auraglow light integrated into a modern interior design"},
+          id: "6",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BH3pnx6ODnrHiyU0R7S8Jh129i/uploaded-1774379881824-o02dspvh.avif",          imageAlt: "Auraglow light integrated into a modern interior design"},
       ]}
       autoPlay={true}
       autoPlayInterval={4000}
