@@ -41,23 +41,23 @@ export default function ProductsPage() {
   const productsData = [
     {
       id: "smart-sensor-white",      brand: "Auraglow Smart",      name: "Smart Sensor Wall Light - Magnetic White",      price: "£39.99",      rating: 4.8,
-      reviewCount: "55 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg",      imageAlt: "Auraglow Smart LED sensor wall light in white with magnetic base"
+      reviewCount: "55 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg?_wi=2",      imageAlt: "Auraglow Smart LED sensor wall light in white with magnetic base"
     },
     {
       id: "smart-sensor-black",      brand: "Auraglow Smart",      name: "Smart Sensor Wall Light - Magnetic Black",      price: "£39.99",      rating: 4.7,
-      reviewCount: "42 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg",      imageAlt: "Auraglow Smart LED sensor wall light in black with magnetic base"
+      reviewCount: "42 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg?_wi=2",      imageAlt: "Auraglow Smart LED sensor wall light in black with magnetic base"
     },
     {
       id: "lamp-oak",      brand: "Luminate Classic",      name: "Wireless Wall Lamp - Oak Finish",      price: "£24.99",      rating: 5,
-      reviewCount: "125 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg",      imageAlt: "Luminate Classic wireless wall lamp with light oak finish"
+      reviewCount: "125 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg?_wi=2",      imageAlt: "Luminate Classic wireless wall lamp with light oak finish"
     },
     {
       id: "lamp-walnut",      brand: "Luminate Classic",      name: "Wireless Wall Lamp - Walnut Finish",      price: "£26.99",      rating: 5,
-      reviewCount: "98 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg",      imageAlt: "Luminate Classic wireless wall lamp with rich walnut finish"
+      reviewCount: "98 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg?_wi=2",      imageAlt: "Luminate Classic wireless wall lamp with rich walnut finish"
     },
     {
       id: "lamp-beech",      brand: "Luminate Classic",      name: "Wireless Wall Lamp - Beech Finish",      price: "£23.99",      rating: 4.5,
-      reviewCount: "72 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg",      imageAlt: "Luminate Classic wireless wall lamp with light beech wood finish"
+      reviewCount: "72 reviews",      imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg?_wi=2",      imageAlt: "Luminate Classic wireless wall lamp with light beech wood finish"
     }
   ];
 
