@@ -8,11 +8,11 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 
 export default function ProductsPage() {
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/#about" },
-    { name: "Features", href: "/#features" },
-    { name: "Products", href: "/products" },
-    { name: "Testimonials", href: "/#testimonials" }
+    { name: "Home", id: "/" },
+    { name: "About", id: "/#about" },
+    { name: "Features", id: "/#features" },
+    { name: "Products", id: "/products" },
+    { name: "Testimonials", id: "/#testimonials" }
   ];
 
   const footerColumns = [
