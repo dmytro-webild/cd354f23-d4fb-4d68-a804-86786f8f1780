@@ -31,15 +31,15 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          href: "/"},
+          name: "Home",          id: "/"},
         {
-          name: "About",          href: "#about"},
+          name: "About",          id: "#about"},
         {
-          name: "Features",          href: "#features"},
+          name: "Features",          id: "#features"},
         {
-          name: "Products",          href: "/products"},
+          name: "Products",          id: "/products"},
         {
-          name: "Testimonials",          href: "#testimonials"},
+          name: "Testimonials",          id: "#testimonials"},
       ]}
       button={{
         text: "Buy Now",        href: "/products"}}
