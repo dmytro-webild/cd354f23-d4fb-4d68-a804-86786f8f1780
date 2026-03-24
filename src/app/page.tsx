@@ -40,7 +40,8 @@ export default function LandingPage() {
           name: "Products",          id: "/products"},
         {
           name: "Testimonials",          id: "#testimonials"},
-      ]}
+        {
+          name: "Contact",          id: "/contact"}]}
       button={{
         text: "Buy Now",        href: "/products"}}
       brandName="Auraglow"
@@ -233,7 +234,7 @@ export default function LandingPage() {
         {
           title: "Support",          items: [
             {
-              label: "Contact Us",              href: "#contact"},
+              label: "Contact Us",              href: "/contact"},
             {
               label: "FAQ",              href: "#faq"},
             {
