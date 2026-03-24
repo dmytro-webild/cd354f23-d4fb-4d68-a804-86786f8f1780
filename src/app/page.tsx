@@ -43,7 +43,7 @@ export default function LandingPage() {
       ]}
       button={{
         text: "Buy Now",        href: "#products"}}
-      brandName="Luminate"
+      brandName="Auraglow"
     />
   </div>
 
@@ -51,8 +51,8 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-static"}}
-      title="Luminate: Smart Illumination for Every Space"
-      description="Explore our innovative range of LED wall lamps, including smart sensor lights with magnetic bases, and classic USB rechargeable wooden lights. Perfect for enhancing any room with intelligence and style."
+      title="Auraglow: The Smart LED Sensor Wall Light"
+      description="Experience innovative illumination with our magnetic base wall light. Featuring intelligent motion sensing, stepless dimming, and easy installation, Auraglow redefines modern home lighting."
       buttons={[
         {
           text: "Explore Features",          href: "#features"},
@@ -62,17 +62,17 @@ export default function LandingPage() {
       buttonAnimation="slide-up"
       carouselItems={[
         {
-          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-with-laptop-phone_23-2149130548.jpg",          imageAlt: "Wireless wooden wall lamp in a modern bedroom"},
+          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg",          imageAlt: "Auraglow Smart LED Sensor Wall Light in a modern setting"},
         {
-          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-word-love-blurred-background-interior-detail_169016-19168.jpg",          imageAlt: "Adjustable wooden wall lamp with warm glow"},
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",          imageAlt: "Magnetic base of Auraglow light attaching to a metal surface"},
         {
-          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-writing-her-journal_23-2150416357.jpg",          imageAlt: "Close-up of USB rechargeable wooden lamp"},
+          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/white-lightbulb-minimal-design-studio_23-2149372273.jpg",          imageAlt: "Sleek, minimalist design of the Auraglow LED light"},
         {
-          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg?_wi=1",          imageAlt: "Wooden wall lamp providing light in a minimalist study"},
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-led-lighting-fixture_23-2149301131.jpg",          imageAlt: "Close-up of the LED lighting fixture of Auraglow"},
         {
-          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/yellow-white-wooden-fence_250224-276.jpg",          imageAlt: "Elegant wooden wall lamp in a living room setting"},
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/clean-minimalist-empty-room-dark-wood-floor-light-wall-with-copy-space_181624-3700.jpg",          imageAlt: "Auraglow light illuminating a clean, minimalist room"},
         {
-          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-family-spending-time-home_23-2150671557.jpg",          imageAlt: "Bedside wooden lamp enhancing bedroom decor"},
+          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/modern-light-fixture-minimalist-interior_23-2149301138.jpg",          imageAlt: "Auraglow light integrated into a modern interior design"},
       ]}
       autoPlay={true}
       autoPlayInterval={4000}
@@ -82,10 +82,10 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MediaAbout
       useInvertedBackground={true}
-      title="Innovation Meets Elegance"
-      description="Luminate is at the forefront of modern lighting, offering not only our beautifully crafted USB rechargeable wooden lamps but also advanced smart LED sensor wall lights. Designed for seamless integration into your lifestyle, our products combine cutting-edge technology with timeless design, all featuring high-quality materials and intuitive controls."
-      imageSrc="http://img.b2bpic.net/free-photo/selective-focus-point-morocco-light-lantern-decoration-living-room-interior_1339-3257.jpg"
-      imageAlt="Close up of the wooden texture of the wireless wall lamp"
+      title="Auraglow: Where Smart Lighting Meets Seamless Design"
+      description="Auraglow stands at the forefront of modern lighting innovation. Our Smart LED Sensor Wall Light with Magnetic Base is designed for effortless integration into any home. Combining intelligent motion sensing, customizable brightness, and a sleek aesthetic, Auraglow delivers unparalleled convenience and sophisticated style."
+      imageSrc="http://img.b2bpic.net/free-photo/modern-style-home-interior-design_23-2149168452.jpg"
+      imageAlt="Modern home interior showcasing elegant lighting"
     />
   </div>
 
@@ -96,8 +96,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",          title: "Seamless Brightness Adjustment",          description: "Enjoy perfect lighting with intuitive touch control for stepless dimming from 10% to 100%. The lamp conveniently remembers your last brightness setting when turned on again.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/vertical-light-long-blue-room_181624-345.jpg",            imageAlt: "Hand touching the lamp to adjust brightness"},
+          id: "1",          title: "Seamless Brightness Adjustment",          description: "Enjoy perfect lighting with intuitive touch control for stepless dimming from 10% to 100%. The Auraglow light conveniently remembers your last brightness setting when turned on again.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/vertical-light-long-blue-room_181624-345.jpg",            imageAlt: "Hand touching the Auraglow light to adjust brightness"},
           items: [
             {
               icon: Touchpad,
@@ -109,8 +109,8 @@ export default function LandingPage() {
           reverse: false,
         },
         {
-          id: "2",          title: "Powerful & Long-Lasting Battery",          description: "Equipped with a robust 4000mAh battery, our lamp offers 7 hours of illumination at the highest brightness and up to 30 hours at the lowest, ensuring long-lasting ambiance.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-vector/kinds-lightbulbs-flat-style_23-2147532362.jpg",            imageAlt: "Battery icon with wall lamp illustration"},
+          id: "2",          title: "Powerful & Long-Lasting Battery",          description: "Equipped with a robust 4000mAh battery, the Auraglow light offers 7 hours of illumination at the highest brightness and up to 30 hours at the lowest, ensuring long-lasting ambiance.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-vector/kinds-lightbulbs-flat-style_23-2147532362.jpg",            imageAlt: "Battery icon with Auraglow light illustration"},
           items: [
             {
               icon: BatteryCharging,
@@ -122,8 +122,8 @@ export default function LandingPage() {
           reverse: true,
         },
         {
-          id: "3",          title: "Effortless & Versatile Installation with Magnetic Base",          description: "Choose between drill-free installation using the included strong adhesive strip or powerful magnetic base for instant attachment to any magnetic surface. Plus, enjoy a 360° adjustable angle for versatile lighting.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",            imageAlt: "Wall lamp with magnetic base being installed"},
+          id: "3",          title: "Effortless & Versatile Installation with Magnetic Base",          description: "Choose between drill-free installation using the included strong adhesive strip or powerful magnetic base for instant attachment to any magnetic surface. Plus, enjoy a 360° adjustable angle for versatile lighting with your Auraglow light.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",            imageAlt: "Auraglow light with magnetic base being installed"},
           items: [
             {
               icon: Magnet,
@@ -135,8 +135,8 @@ export default function LandingPage() {
           reverse: false,
         },
         {
-          id: "4",          title: "Intelligent Motion Sensing",          description: "Our smart LED sensor lights activate automatically when motion is detected, providing light when you need it most and saving energy when you don't. Perfect for hallways, closets, and stairwells.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg?_wi=2",            imageAlt: "Smart LED wall lamp detecting motion"},
+          id: "4",          title: "Intelligent Motion Sensing",          description: "The Auraglow Smart LED Sensor Wall Light activates automatically when motion is detected, providing light when you need it most and saving energy when you don't. Perfect for hallways, closets, and stairwells.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/dark-corridor-glowing-light-empty-hallway_1407-3507.jpg",            imageAlt: "Auraglow Smart LED wall light detecting motion in a dark hallway"},
           items: [
             {
               icon: Activity,
@@ -148,8 +148,8 @@ export default function LandingPage() {
           reverse: true,
         },
       ]}
-      title="Designed for Modern Living"
-      description="Experience unparalleled convenience and style with our innovative wireless wall lamps, meticulously engineered for your comfort and aesthetic pleasure."
+      title="Intelligent Features for Modern Living"
+      description="The Auraglow Smart LED Sensor Wall Light is meticulously engineered to enhance your comfort, safety, and energy efficiency with cutting-edge technology and intuitive controls."
     />
   </div>
 
@@ -161,32 +161,32 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "lamp-oak",          brand: "Luminate",          name: "Wireless Wall Lamp - Oak Finish",          price: "£24.99",          rating: 5,
-          reviewCount: "125 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg",          imageAlt: "Wireless wall lamp with light oak finish"},
+          id: "smart-sensor-white",          brand: "Auraglow Smart",          name: "Smart Sensor Wall Light - Magnetic White",          price: "£39.99",          rating: 4.8,
+          reviewCount: "55 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg",          imageAlt: "Auraglow Smart LED sensor wall light in white with magnetic base"},
         {
-          id: "lamp-walnut",          brand: "Luminate",          name: "Wireless Wall Lamp - Walnut Finish",          price: "£26.99",          rating: 5,
-          reviewCount: "98 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg",          imageAlt: "Wireless wall lamp with rich walnut finish"},
+          id: "smart-sensor-black",          brand: "Auraglow Smart",          name: "Smart Sensor Wall Light - Magnetic Black",          price: "£39.99",          rating: 4.7,
+          reviewCount: "42 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg",          imageAlt: "Auraglow Smart LED sensor wall light in black with magnetic base"},
         {
-          id: "lamp-beech",          brand: "Luminate",          name: "Wireless Wall Lamp - Beech Finish",          price: "£23.99",          rating: 4.5,
-          reviewCount: "72 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg",          imageAlt: "Wireless wall lamp with light beech wood finish"},
+          id: "lamp-oak",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Oak Finish",          price: "£24.99",          rating: 5,
+          reviewCount: "125 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg",          imageAlt: "Luminate Classic wireless wall lamp with light oak finish"},
         {
-          id: "smart-sensor-white",          brand: "Luminate Smart",          name: "Smart Sensor Wall Light - Magnetic White",          price: "£39.99",          rating: 4.8,
-          reviewCount: "55 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg",          imageAlt: "Smart LED sensor wall light in white with magnetic base"},
+          id: "lamp-walnut",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Walnut Finish",          price: "£26.99",          rating: 5,
+          reviewCount: "98 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg",          imageAlt: "Luminate Classic wireless wall lamp with rich walnut finish"},
         {
-          id: "smart-sensor-black",          brand: "Luminate Smart",          name: "Smart Sensor Wall Light - Magnetic Black",          price: "£39.99",          rating: 4.7,
-          reviewCount: "42 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg",          imageAlt: "Smart LED sensor wall light in black with magnetic base"},
+          id: "lamp-beech",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Beech Finish",          price: "£23.99",          rating: 4.5,
+          reviewCount: "72 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg",          imageAlt: "Luminate Classic wireless wall lamp with light beech wood finish"},
       ]}
-      title="Explore Our Innovative Lighting Collections"
-      description="Discover both our classic USB rechargeable wooden wall lamps and the new smart LED sensor lights with magnetic bases, designed for modern homes."
+      title="Discover the Auraglow Smart Lighting Collection"
+      description="Explore our range of Auraglow Smart LED Sensor Wall Lights, designed to provide intelligent illumination with stylish magnetic installation. Also features our classic wooden lamps."
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={false}
-      testimonial="“I absolutely love my Luminate wireless lamp! The wooden design is so elegant and fits perfectly with my bedroom decor. The touch dimming is a game-changer for late-night reading.”"
+      testimonial="“The Auraglow Smart LED Sensor Wall Light has transformed my hallway! The magnetic base made installation a breeze, and the motion sensor is incredibly convenient. Stylish and smart – exactly what I needed.”"
       rating={5}
-      author="Sarah J., Interior Designer"
+      author="Emily R., Homeowner"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/coffee-time-me-please_329181-17310.jpg",          alt: "Sarah J. Avatar"},
@@ -218,7 +218,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseCard
-      logoText="Luminate"
+      logoText="Auraglow"
       columns={[
         {
           title: "Information",          items: [
@@ -249,7 +249,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2024 Luminate. All rights reserved."
+      copyrightText="© 2024 Auraglow. All rights reserved."
     />
   </div>
       </ReactLenis>
