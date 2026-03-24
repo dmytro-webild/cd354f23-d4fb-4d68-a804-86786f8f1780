@@ -12,7 +12,8 @@ export default function ProductsPage() {
     { name: "About", id: "/#about" },
     { name: "Features", id: "/#features" },
     { name: "Products", id: "/products" },
-    { name: "Testimonials", id: "/#testimonials" }
+    { name: "Testimonials", id: "/#testimonials" },
+    { name: "Contact", id: "/contact" }
   ];
 
   const footerColumns = [
@@ -25,7 +26,7 @@ export default function ProductsPage() {
     },
     {
       title: "Support",      items: [
-        { label: "Contact Us", href: "/#contact" },
+        { label: "Contact Us", href: "/contact" },
         { label: "FAQ", href: "/#faq" },
         { label: "Track Orders", href: "#" }
       ]
