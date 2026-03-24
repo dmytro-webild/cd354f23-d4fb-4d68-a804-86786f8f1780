@@ -72,7 +72,7 @@ export default function LandingPage() {
         {
           id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/clean-minimalist-empty-room-dark-wood-floor-light-wall-with-copy-space_181624-3700.jpg",          imageAlt: "Auraglow light illuminating a clean, minimalist room"},
         {
-          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/modern-light-fixture-minimalist-interior_23-2149301138.jpg",          imageAlt: "Auraglow light integrated into a modern interior design"},
+          id: "6",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BH3pnx6ODnrHiyU0R7S8Jh129i/tmp/https-www-alibaba-com-product-detail-tou-1774377198714-eedc0088.png",          imageAlt: "Auraglow light integrated into a modern interior design"},
       ]}
       autoPlay={true}
       autoPlayInterval={4000}
@@ -84,7 +84,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Auraglow: Where Smart Lighting Meets Seamless Design"
       description="Auraglow stands at the forefront of modern lighting innovation. Our Smart LED Sensor Wall Light with Magnetic Base is designed for effortless integration into any home. Combining intelligent motion sensing, customizable brightness, and a sleek aesthetic, Auraglow delivers unparalleled convenience and sophisticated style."
-      imageSrc="http://img.b2bpic.net/free-photo/modern-style-home-interior-design_23-2149168452.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cozy-armchair-nook-with-warm-lighting-coffee-mug_23-2152031746.jpg?id=422915033"
       imageAlt="Modern home interior showcasing elegant lighting"
     />
   </div>
