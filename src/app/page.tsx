@@ -64,7 +64,7 @@ export default function LandingPage() {
         {
           id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg",          imageAlt: "Auraglow Smart LED Sensor Wall Light in a modern setting"},
         {
-          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",          imageAlt: "Magnetic base of Auraglow light attaching to a metal surface"},
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg?_wi=1",          imageAlt: "Magnetic base of Auraglow light attaching to a metal surface"},
         {
           id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/white-lightbulb-minimal-design-studio_23-2149372273.jpg",          imageAlt: "Sleek, minimalist design of the Auraglow LED light"},
         {
@@ -123,7 +123,7 @@ export default function LandingPage() {
         },
         {
           id: "3",          title: "Effortless & Versatile Installation with Magnetic Base",          description: "Choose between drill-free installation using the included strong adhesive strip or powerful magnetic base for instant attachment to any magnetic surface. Plus, enjoy a 360° adjustable angle for versatile lighting with your Auraglow light.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",            imageAlt: "Auraglow light with magnetic base being installed"},
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg?_wi=2",            imageAlt: "Auraglow light with magnetic base being installed"},
           items: [
             {
               icon: Magnet,
@@ -162,19 +162,19 @@ export default function LandingPage() {
       products={[
         {
           id: "smart-sensor-white",          brand: "Auraglow Smart",          name: "Smart Sensor Wall Light - Magnetic White",          price: "£39.99",          rating: 4.8,
-          reviewCount: "55 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg",          imageAlt: "Auraglow Smart LED sensor wall light in white with magnetic base"},
+          reviewCount: "55 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg?_wi=1",          imageAlt: "Auraglow Smart LED sensor wall light in white with magnetic base"},
         {
           id: "smart-sensor-black",          brand: "Auraglow Smart",          name: "Smart Sensor Wall Light - Magnetic Black",          price: "£39.99",          rating: 4.7,
-          reviewCount: "42 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg",          imageAlt: "Auraglow Smart LED sensor wall light in black with magnetic base"},
+          reviewCount: "42 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg?_wi=1",          imageAlt: "Auraglow Smart LED sensor wall light in black with magnetic base"},
         {
           id: "lamp-oak",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Oak Finish",          price: "£24.99",          rating: 5,
-          reviewCount: "125 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg",          imageAlt: "Luminate Classic wireless wall lamp with light oak finish"},
+          reviewCount: "125 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-modern-photorealistic-lamp_23-2151038961.jpg?_wi=1",          imageAlt: "Luminate Classic wireless wall lamp with light oak finish"},
         {
           id: "lamp-walnut",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Walnut Finish",          price: "£26.99",          rating: 5,
-          reviewCount: "98 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg",          imageAlt: "Luminate Classic wireless wall lamp with rich walnut finish"},
+          reviewCount: "98 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-selective-focus-shot-lamp-with-interesting-design_181624-6609.jpg?_wi=1",          imageAlt: "Luminate Classic wireless wall lamp with rich walnut finish"},
         {
           id: "lamp-beech",          brand: "Luminate Classic",          name: "Wireless Wall Lamp - Beech Finish",          price: "£23.99",          rating: 4.5,
-          reviewCount: "72 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg",          imageAlt: "Luminate Classic wireless wall lamp with light beech wood finish"},
+          reviewCount: "72 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg?_wi=1",          imageAlt: "Luminate Classic wireless wall lamp with light beech wood finish"},
       ]}
       title="Discover the Auraglow Smart Lighting Collection"
       description="Explore our range of Auraglow Smart LED Sensor Wall Lights, designed to provide intelligent illumination with stylish magnetic installation. Also features our classic wooden lamps."
