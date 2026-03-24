@@ -10,7 +10,7 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
-import { Maximize, Touchpad, History, BatteryCharging, Hourglass, Drill } from "lucide-react";
+import { Maximize, Touchpad, History, BatteryCharging, Hourglass, Magnet, Activity } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -51,8 +51,8 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-static"}}
-      title="Luminate: Your Space, Illuminated"
-      description="Discover the Pack USB Rechargeable Wireless Wall Lamp – an indoor wooden light with touch control, brightness adjustment, and 360° rotation for the perfect ambiance in any room."
+      title="Luminate: Smart Illumination for Every Space"
+      description="Explore our innovative range of LED wall lamps, including smart sensor lights with magnetic bases, and classic USB rechargeable wooden lights. Perfect for enhancing any room with intelligence and style."
       buttons={[
         {
           text: "Explore Features",          href: "#features"},
@@ -82,8 +82,8 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MediaAbout
       useInvertedBackground={true}
-      title="Crafted for Your Space"
-      description="The Luminate USB Rechargeable Wireless Wall Lamp is a beautifully designed indoor wooden light that combines aesthetics with functionality. Made from solid wood, each lamp is CNC machined and hand-finished to showcase the natural grain, making it a stylish addition to any room. It's perfect for bedrooms, studies, living rooms, and children's rooms."
+      title="Innovation Meets Elegance"
+      description="Luminate is at the forefront of modern lighting, offering not only our beautifully crafted USB rechargeable wooden lamps but also advanced smart LED sensor wall lights. Designed for seamless integration into your lifestyle, our products combine cutting-edge technology with timeless design, all featuring high-quality materials and intuitive controls."
       imageSrc="http://img.b2bpic.net/free-photo/selective-focus-point-morocco-light-lantern-decoration-living-room-interior_1339-3257.jpg"
       imageAlt="Close up of the wooden texture of the wireless wall lamp"
     />
@@ -122,21 +122,34 @@ export default function LandingPage() {
           reverse: true,
         },
         {
-          id: "3",          title: "Effortless & Versatile Installation",          description: "Choose between drill-free installation using the included strong adhesive strip or traditional mounting with screws. Plus, enjoy a 360° adjustable angle for versatile lighting.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",            imageAlt: "Person installing wall lamp with adhesive strip"},
+          id: "3",          title: "Effortless & Versatile Installation with Magnetic Base",          description: "Choose between drill-free installation using the included strong adhesive strip or powerful magnetic base for instant attachment to any magnetic surface. Plus, enjoy a 360° adjustable angle for versatile lighting.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-gray-metal-cabinet-with-handle-label-office-minimal_169016-71010.jpg",            imageAlt: "Wall lamp with magnetic base being installed"},
           items: [
             {
-              icon: Drill,
-              text: "Drill-Free Option"},
+              icon: Magnet,
+              text: "Magnetic Base & Drill-Free"},
             {
               icon: Maximize,
               text: "360° Adjustable Angle"},
           ],
           reverse: false,
         },
+        {
+          id: "4",          title: "Intelligent Motion Sensing",          description: "Our smart LED sensor lights activate automatically when motion is detected, providing light when you need it most and saving energy when you don't. Perfect for hallways, closets, and stairwells.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/view-contemporary-photorealistic-lamp_23-2151038904.jpg",            imageAlt: "Smart LED wall lamp detecting motion"},
+          items: [
+            {
+              icon: Activity,
+              text: "Automatic Activation"},
+            {
+              icon: Hourglass,
+              text: "Energy Efficient"},
+          ],
+          reverse: true,
+        },
       ]}
       title="Designed for Modern Living"
-      description="Experience unparalleled convenience and style with our innovative wireless wall lamp, meticulously engineered for your comfort and aesthetic pleasure."
+      description="Experience unparalleled convenience and style with our innovative wireless wall lamps, meticulously engineered for your comfort and aesthetic pleasure."
     />
   </div>
 
@@ -156,9 +169,15 @@ export default function LandingPage() {
         {
           id: "lamp-beech",          brand: "Luminate",          name: "Wireless Wall Lamp - Beech Finish",          price: "£23.99",          rating: 4.5,
           reviewCount: "72 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/wood-furniture-decoration-wall-comfortable_1203-5240.jpg",          imageAlt: "Wireless wall lamp with light beech wood finish"},
+        {
+          id: "smart-sensor-white",          brand: "Luminate Smart",          name: "Smart Sensor Wall Light - Magnetic White",          price: "£39.99",          rating: 4.8,
+          reviewCount: "55 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-composition-with-white-chair_23-2149301211.jpg",          imageAlt: "Smart LED sensor wall light in white with magnetic base"},
+        {
+          id: "smart-sensor-black",          brand: "Luminate Smart",          name: "Smart Sensor Wall Light - Magnetic Black",          price: "£39.99",          rating: 4.7,
+          reviewCount: "42 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/lamp-with-minimalist-design-indoors_23-2151038933.jpg",          imageAlt: "Smart LED sensor wall light in black with magnetic base"},
       ]}
-      title="Discover the Luminate Wall Lamp"
-      description="Elevate your home decor with our elegant and functional wireless wooden lamps, available in various finishes to match your style."
+      title="Explore Our Innovative Lighting Collections"
+      description="Discover both our classic USB rechargeable wooden wall lamps and the new smart LED sensor lights with magnetic bases, designed for modern homes."
     />
   </div>
 
